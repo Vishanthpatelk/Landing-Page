@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="landing_page.css">
+    <link rel="stylesheet" href="landingpagevish.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Option 1: Include in HTML -->
+
 </head>
 <body>
     <div class="container">
@@ -53,21 +56,215 @@
             <div class="col-3">
                 <img src="https://wallup.net/wp-content/uploads/2019/09/991372-argentina-mountains-lake-scenery-grass-clouds-nature.jpg" width="400" height="251" alt="Category 4">
             </div>
+            <div class="col-3">
+                <img src="https://getwallpapers.com/wallpaper/full/7/7/c/257695.jpg" width="400" alt="Category 1">
+            </div>
+            <div class="col-3">
+                <img src="https://wallpapercave.com/wp/wp3478449.jpg" width="400" alt="Category 2">
+            </div>
         </div>
     </div>
     <footer>
         <div class="footer-col-4">
             <h3>Follow / Suggestions</h3>
             <ul>
-                <li><a href="mailto:vishanthkomanpally@gmail.com" class="footer-1">hello@srikanth.dev <ion-icon name="mail-open-outline"></ion-icon></a></li>
-                <li><a class="social-list-link" href="https://github.com/srikanthreddy8040">GitHub <ion-icon name="logo-github"></ion-icon></a></li>
-                <li><a class="social-list-link" href="https://www.instagram.com/srikanthreddy_8040/">Instagram <ion-icon name="logo-instagram"></ion-icon></a></li>
-                <li><a class="social-list-link" href="https://m.facebook.com/100005173420177/">Facebook <ion-icon name="logo-facebook"></ion-icon></a></li>
-                <li><a class="social-list-link" href="https://mobile.twitter.com/Srikant12835634">Twitter <ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href="mailto:vishanthpatel9@gmail.com" class="footer-1">hello@Vishanth.dev <ion-icon name="mail-open-outline"></ion-icon></a></li>
+                <li><a class="social-list-link" href="https://github.com/Vishanthpatelk">GitHub <ion-icon name="logo-github"></ion-icon></a></li>
+                <li><a class="social-list-link" href="https://www.instagram.com/bobbyyyyyyyy._?igsh=MTJjNDl3Z3R1dHVzbA==">Instagram <ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a class="social-list-link" href="https://m.facebook.com/100005173420178/">Facebook <ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a class="social-list-link" href="https://www.linkedin.com/in/komanpally-vishanth-patel-1a0771351/">linkedin<i class="bi bi-linkedin"></i></a></li>
             </ul>
             <hr>
-            <p class="copyright">© 2020 Vishanth Komanpally</p>
+            <p class="copyright">Copyright© 2020 Vishanth Komanpally</p>
         </div>
     </footer> 
 </body>
 </html>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background-color: aliceblue;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    padding: 20px;
+    justify-content: space-around !important;
+}
+header .logo img{
+width: 50px;
+height: 50px;
+}
+header h1{
+    padding-top: 10px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+/*--------------------@learnwithsrikanth-----------------------------*/
+header h1 span{
+    color:black;
+}
+.navbar{
+    display: flex;
+    padding: 20px;
+    border:#000;
+    align-self: 10px;
+    background-color: #000;
+}
+ nav{
+    flex: 1;
+    text-align: right;
+ }
+ nav ul{
+    display: inline-block;
+    list-style-type: none;
+ }
+ nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+ }
+ a{
+    text-decoration: none;
+    color: cornflowerblue;
+ }
+ p{
+    color: #555;
+ }
+ .container{
+    width: 1300px;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: px;
+ }
+ .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+header input{
+    padding: 8px 20px;
+    background-color:black ;
+    color: white;
+    font-weight: 800;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+header :hover {
+transform: scale(1.0);
+
+}
+.container .content{
+    width: 100%;
+    height: 90vh;
+}
+.content .one{
+width: 60%;
+padding: 0 100px;
+}
+.content .one h1{
+    font-size: 60px;
+}
+.content .one img{
+    width: 50px;
+    height: 50px;
+    margin-top: 8px;
+    margin-left: -10px;
+}
+.content .one p{
+    font-size: 16px;
+    padding-left: 10px 0;
+    color: rgba(0, 0, 0, 0.728);
+}
+.content input{
+    padding: 10px 20px;
+    background-color: rgb(9, 289, 9);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+.content input:hover{
+    transform: scale(1.09);
+    background-color: rgba(9, 209, 9, 0.683);
+}
+.content .input2{
+    margin-left: 15px;
+}
+.content .two{
+    width: 30%;
+    height: 600px;
+    position: relative;
+}
+.categories{
+    margin: 70px 0;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+ .col-3{
+    flex-basis:30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 50;
+}
+.footer{
+    background:#000 ;
+    color:#8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    margin-right: 200px;
+  }
+  .footer p{
+    color:#8a8a8a;
+  }
+  .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    display: inline-block;
+  }
+ 
+  .footer hr{
+    border: black;
+    background: #b5b5b5;
+    height: 20px;
+    width: 1000;
+    margin: 20px 0;
+  }
+  .footer-col-4 ul li {
+   display: inline-block;
+   margin-right: 200px;
+  }
+  
+</style>
